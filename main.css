@@ -3,6 +3,24 @@ html, body{
   height: 100%;
   width: 100%;
 }
+.footer {
+  margin-bottom: 15px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+.smallerWhiteText{
+  color: white;
+  font-family: monospace;
+  font-size: 12px;
+}
+.smallerWhiteText:link{
+  text-decoration: none;
+}
 .whiteText{
   color: white;
   font-family: monospace;
