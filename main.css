@@ -40,7 +40,7 @@ html, body{
     animation: 1s blink step-end infinite;
   }
   
-  @keyframes "blink" {
+  @keyframes blink {
     from, to {
       color: transparent;
     }
@@ -58,7 +58,7 @@ html, body{
     }
   }
   
-  @-webkit-keyframes "blink" {
+  @-webkit-keyframes blink {
     from, to {
       color: transparent;
     }
@@ -67,7 +67,7 @@ html, body{
     }
   }
   
-  @-ms-keyframes "blink" {
+  @-ms-keyframes blink {
     from, to {
       color: transparent;
     }
@@ -76,12 +76,13 @@ html, body{
     }
   }
   
-  @-o-keyframes "blink" {
+  @-o-keyframes blink {
     from, to {
       color: transparent;
     }
     50% {
       color: white;
     }
+  }
 
     
