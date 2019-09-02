@@ -1,3 +1,3 @@
 nails.Click("html", function(){
-    swal("Why?", "Why do you click on random texts?");
+    swal("Why?", "Do you click on random texts?");
 })
